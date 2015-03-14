@@ -1,5 +1,16 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(242, 242, 242);
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
 
 h1 {
+    margin: 0;
     font: 5rem Arial, Verdana, sans-serif;
     text-transform: uppercase;
 }
@@ -42,4 +53,15 @@ h1 span:nth-child(10) {
 
 h1 span:nth-child(11) {
     color: rgb(225, 39, 39);
+}
+
+h2 {
+    font: 1.6rem Arial, Verdana, sans-serif;
+    margin: 0;
+}
+
+header button {
+    font: 1rem Arial, Verdana, sans-serif;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
 }
