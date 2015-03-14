@@ -1,0 +1,45 @@
+
+h1 {
+    font: 5rem Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+h1 span:nth-child(1) {
+    color: rgb(191, 33, 33);
+}
+
+h1 span:nth-child(2) {
+    color: rgb(49, 133, 192);
+}
+
+h1 span:nth-child(3), h1 span:nth-child(7) {
+    color: rgb(236, 132, 40);
+}
+
+h1 span:nth-child(4) {
+    color: rgb(232, 130, 191);
+}
+
+h1 span:nth-child(5) {
+    color: rgb(90, 198, 84);
+}
+
+h1 span:nth-child(6) {
+    color: rgb(61, 137, 83);
+}
+
+h1 span:nth-child(8) {
+    color: rgb(137, 194, 194);
+}
+
+h1 span:nth-child(9) {
+    color: rgb(191, 133, 193);
+}
+
+h1 span:nth-child(10) {
+    color: rgb(86, 135, 136);
+}
+
+h1 span:nth-child(11) {
+    color: rgb(225, 39, 39);
+}
