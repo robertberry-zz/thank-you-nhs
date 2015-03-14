@@ -6,7 +6,7 @@ header {
     background-color: rgb(242, 242, 242);
     text-align: center;
     padding-top: 4rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 h1 {
@@ -56,7 +56,8 @@ h1 span:nth-child(11) {
 }
 
 h2 {
-    font: 1.6rem Arial, Verdana, sans-serif;
+    color: rgb(39, 39, 39);
+    font: 1.5rem Arial, Verdana, sans-serif;
     margin: 0;
 }
 
@@ -64,4 +65,41 @@ header button {
     font: 1rem Arial, Verdana, sans-serif;
     margin-top: 2rem;
     padding: 1rem 2rem;
+}
+
+.thank-you-message__form {
+    margin: 2rem auto;
+    width: 30rem;
+}
+
+.thank-you-message__inputs-box {
+    border: 1px solid rgb(167, 167, 167);
+}
+
+.thank-you-message__message,
+.thank-you-message__name {
+    box-sizing: border-box;
+    padding: 0.5rem;
+    font: 0.9rem Arial, Verdana, sans-serif;
+    border: 0;
+    background-color: transparent;
+    width: 100%;
+}
+
+.thank-you-message__message:focus,
+.thank-you-message__name:focus {
+    outline: none;
+}
+
+.thank-you-message__message {
+    resize: none;
+    border-bottom: 1px dashed rgb(167, 167, 167);
+}
+
+.thank-you-message__submit {
+    font: 0.9rem Arial, Verdana, sans-serif;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    background-color: rgb(39, 39, 39);
 }
