@@ -73,6 +73,7 @@ header button {
 }
 
 .thank-you-message__inputs-box {
+    padding-bottom: 0.2rem;
     border: 1px solid rgb(167, 167, 167);
 }
 
@@ -92,11 +93,27 @@ header button {
 }
 
 .thank-you-message__message {
+    height: 8rem;
     resize: none;
     border-bottom: 1px dashed rgb(167, 167, 167);
 }
 
+.thank-you-message__submit-box {
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.thank-you-message__characters-remaining {
+    padding-top: 0.5rem;
+    font: 0.9rem Arial, Verdana, sans-serif;
+    color: rgb(50, 138, 250);
+    flex: 4;
+    text-align: left;
+}
+
 .thank-you-message__submit {
+    flex: 1;
     font: 0.9rem Arial, Verdana, sans-serif;
     border: 1px solid black;
     padding: 0.5rem 1rem;
