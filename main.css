@@ -70,11 +70,13 @@ header button {
 .thank-you-message__form {
     margin: 2rem auto;
     width: 30rem;
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s;
 }
 
 .thank-you-message__form--displayed {
-    display: block;
+    max-height: 15rem;
 }
 
 .thank-you-message__inputs-box {
