@@ -3,6 +3,12 @@
     "directories": {
       "lib": "js",
       "packages": "jspm_packages"
+    },
+    "dependencies": {
+      "ded/bonzo": "github:ded/bonzo@^2.0.0",
+      "ded/qwery": "github:ded/qwery@^4.0.0",
+      "fat/bean": "github:fat/bean@^1.0.14",
+      "lodash-node": "npm:lodash-node@^3.5.0"
     }
   }
 }

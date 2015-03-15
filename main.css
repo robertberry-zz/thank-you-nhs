@@ -70,6 +70,11 @@ header button {
 .thank-you-message__form {
     margin: 2rem auto;
     width: 30rem;
+    display: none;
+}
+
+.thank-you-message__form--displayed {
+    display: block;
 }
 
 .thank-you-message__inputs-box {
