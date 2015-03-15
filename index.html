@@ -17,24 +17,19 @@
 
   <form method="post" class="thank-you-message__form js-form">
     <div class="thank-you-message__inputs-box">
-      <textarea name="message" class="thank-you-message__message" placeholder="Write a thank you message..."></textarea>
+      <textarea name="message" class="thank-you-message__message js-message-box" placeholder="Write a thank you message..."></textarea>
 
       <input type="text" name="name" class="thank-you-message__name"
              placeholder="Leave a name (optional)" />
     </div>
 
     <div class="thank-you-message__submit-box">
-      <div class="thank-you-message__characters-remaining js-characters-remaining">200</div>
+      <div class="thank-you-message__characters-remaining js-remaining-chars">200</div>
 
       <input type="submit" class="thank-you-message__submit" value="Submit" />
     </div>
   </form>
 </header>
-
-<svg viewbox="0 0 50 50">
-  <line x1="0" y1="0" x2="50" y2="50">
-  <line x1="0" y1="50" x2="50" y2="0">
-</svg>
 
 <script src="jspm_packages/system.js"></script>
 <script src="config.js"></script>
